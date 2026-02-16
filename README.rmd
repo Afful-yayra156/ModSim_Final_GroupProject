@@ -8,7 +8,7 @@ This project implements and compares multiple non-linear regression techniques f
 - **Spline Interpolation**
 
 ## Dataset
-- Source: [Kaggle House Prices Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- Source: [Kaggle House Prices Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data?select=sample_submission.csv)
 - Training set: 1,460 records with 81 features
 - Target variable: SalePrice
 
@@ -60,6 +60,7 @@ April 20th, 2025
 - Add ensemble methods (Random Forest, XGBoost) for comparison
 - Implement cross-validation for more robust evaluation
 - Feature engineering to capture complex interactions
+
 
 
 
