@@ -1,0 +1,67 @@
+# Housing Price Prediction: A Comparative Study of Non-linear Regression Models
+
+## Project Overview
+This project implements and compares multiple non-linear regression techniques for predicting housing prices using the Ames Housing Dataset from Kaggle. The analysis includes data preprocessing, exploratory data analysis, and the implementation of three different modeling approaches:
+
+- **Polynomial Regression** (degrees 1-3)
+- **Exponential/Logarithmic Model**
+- **Spline Interpolation**
+
+## Dataset
+- Source: [Kaggle House Prices Dataset](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- Training set: 1,460 records with 81 features
+- Target variable: SalePrice
+
+## Key Features
+- Comprehensive data preprocessing and outlier handling
+- Exploratory Data Analysis with visualizations
+- Multiple non-linear modeling approaches
+- Model performance comparison using RMSE and R² metrics
+
+## Results Summary
+| Model | Test RMSE | Test R² |
+|-------|-----------|---------|
+| Polynomial Regression (Degree 2) | $35,040.37 | 0.8399 |
+| Exponential/Logarithmic Model | $36,017.41 | 0.8309 |
+| Spline Interpolation | $199,133.13 | -4.1698 |
+
+**Best Performing Model**: Second-degree polynomial regression with R² = 0.8399
+
+## Technologies Used
+- Python 3.x
+- Pandas, NumPy for data manipulation
+- Matplotlib, Seaborn for visualization
+- Scikit-learn for modeling
+- SciPy for interpolation
+
+
+## Team Members (Group 10)
+- Elizabeth Avevor Afful
+- Peniel Maame Akyireko Ansah
+- Kevin Cudjoe
+- Nana Kwaku Amoako
+- Steve Nsabimana
+
+## Due Date
+April 20th, 2025
+
+## How to Run
+1. Clone the repository
+3. Run the Jupyter notebook `ModSim_Final_GroupProject`
+
+## Key Findings
+- The second-degree polynomial model captures the non-linear relationships in housing prices effectively
+- Log transformation helps normalize skewed features like SalePrice
+- Feature engineering and proper preprocessing significantly impact model performance
+- Spline interpolation requires multivariate implementation for better results
+
+## Future Improvements
+- Implement Generalized Additive Models (GAM) for better spline-based predictions
+- Add ensemble methods (Random Forest, XGBoost) for comparison
+- Implement cross-validation for more robust evaluation
+- Feature engineering to capture complex interactions
+
+
+
+
+
